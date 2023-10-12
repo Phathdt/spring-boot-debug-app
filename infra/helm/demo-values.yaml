@@ -4,7 +4,7 @@ image:
   repository: luafanti/spring-boot-debug-app
   tag: main
   pullPolicy: IfNotPresent
-replicaCount: 1
+replicaCount: 3
 resources:
   memoryRequest: 256Mi
   memoryLimit: 512Mi
