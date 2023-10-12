@@ -1,1 +1,6 @@
 replicaCount: 4
+envs:
+  - name: VAULT_SECRET_USER
+    value: <path:kv-v2/data/demo#user>
+  - name: VAULT_SECRET_PASSWORD
+    value: <path:kv-v2/data/demo#password>
